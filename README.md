@@ -6,17 +6,21 @@ velodyne, pointgrey_camera, mtig_driver, rosserial, kvaser_canlib, newest versio
 
 
 velodyne dep install:
+
 rosdep install velodyne_pointcloud
 
 flycapture setup:
+
 1. sudo apt-get install libraw1394-11 libgtkmm-2.4-1c2a libglademm-2.4-1c2a libgtkglextmm-x11-1.2-dev libgtkglextmm-x11-1.2 libusb-1.0-0 libglademm-2.4-dev
 2. sudo sh install_flycapture.sh
 
 MT SDK setup:
+
 1. sudo apt-get install realpath && sudo apt-get install sharutils
 2. sh ./mtsdk_linux_4.7.sh
 
 xsens_mt-master build and setup:
+
 make
 
 
