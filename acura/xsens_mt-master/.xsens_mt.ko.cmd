@@ -1,0 +1,1 @@
+cmd_/home/linkmiao/testproject/src/acura/xsens_mt-master/xsens_mt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/linkmiao/testproject/src/acura/xsens_mt-master/xsens_mt.ko /home/linkmiao/testproject/src/acura/xsens_mt-master/xsens_mt.o /home/linkmiao/testproject/src/acura/xsens_mt-master/xsens_mt.mod.o

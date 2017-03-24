@@ -1,0 +1,24 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+.cproject
+.project
+.pydevproject
+cmake_install.cmake
+bin
+build
+lib
+CMakeLists.txt.user
+*~
+CATKIN_IGNORE
